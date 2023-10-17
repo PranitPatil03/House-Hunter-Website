@@ -1,9 +1,13 @@
 import "./App.css";
 
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <>
-      <div> start</div>
+      <main className="relative">
+        <Navbar />
+      </main>
     </>
   );
 }
