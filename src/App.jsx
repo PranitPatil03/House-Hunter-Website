@@ -7,6 +7,9 @@ function App() {
     <>
       <main className="relative">
         <Navbar />
+        {/* <section className="xl:padding-l wide:padding-r padding-b">
+          <Hero />
+  </section> */}
       </main>
     </>
   );
