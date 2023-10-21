@@ -17,7 +17,7 @@ export default {
       fontFamily: {
         palanquin: ["Palanquin", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
-        Lexend: ["Lexend", "sans-serif"],
+        lexend: ["Lexend", "sans-serif"],
       },
       colors: {
         primary: "#ECEEFF",
@@ -25,8 +25,9 @@ export default {
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
-        // "nav-item-white": "var(--neutral-100, #F0F3FD)",
-        "nav-item-white": "#F0F3FD",
+        white: "#F0F3FD",
+        green: "#047857",
+        logo: "#1B1C57",
       },
       boxShadow: {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",

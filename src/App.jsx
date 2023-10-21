@@ -1,15 +1,16 @@
 import "./App.css";
 
 import Navbar from "./components/Navbar";
+import Hero from "./page/Hero";
 
 function App() {
   return (
     <>
-      <main className="relative">
+      <main>
         <Navbar />
-        {/* <section className="xl:padding-l wide:padding-r padding-b">
+        <section>
           <Hero />
-  </section> */}
+        </section>
       </main>
     </>
   );

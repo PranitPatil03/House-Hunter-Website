@@ -1,34 +1,32 @@
+import { heroImg, location } from "../assets";
 import Button from "../components/Button";
-import { heroImg } from "../assets/index";
 
 const Hero = () => {
   return (
-    <section className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container">
-      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
-        <h1 className="mt-10 font-palanquin text-3xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
-          Find The Place To <br />
-          Live{" "}
-          <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
-            Your Dreams
-          </span>
-          <br />
-          Easily Here
-        </h1>
-        <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
+    <section className="flex xl:flex-row flex-col justify-between min-h-screen gap-10 max-container w-full">
+      <div className="relative xl:w-2/5 flex flex-col justify-start items-start w-full max-xl:padding-x">
+        <h3 className="hero-text-shadow mTop text-4xl max-sm:text-[72px] max-sm:leading-[82px] font-bold font-lexend text-logo capitalize">
+          find the place to <br className="" />
+          <span className="">live your dreams</span> <br className="" /> easily
+          here
+        </h3>
+        <p className="">
           Everything you need about finding your place to live will be here,
           where it will be easier for you
         </p>
-        <Button label="Show now" />
-
-        <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16"></div>
+        <div className="">
+          <img src={location} />
+          <p className=""></p>\
+          <Button />
+        </div>
       </div>
-
-      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-hero bg-cover bg-center">
+      <div className="relative flex-1 flex justify-end items-center xl:min-h-screen max-xl:py-40">
         <img
           src={heroImg}
-          width={610}
-          height={500}
-          className="object-contain relative z-10 hover:hover-img"
+          alt="heroImg"
+          width={720}
+          height={720}
+          className="object-contain absolute pBottom right-0 z-1"
         />
       </div>
     </section>
